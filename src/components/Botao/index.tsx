@@ -1,8 +1,10 @@
 import style from './Botao.module.scss'
-
-function Botao(){
+interface Props{
+    children?:React.ReactNode
+}
+function Botao({children}:Props){
     return(
-        <button className={style.botao}>Botão</button>
+        <button className={style.botao}>{children}</button>
     )
 }
 export default Botao

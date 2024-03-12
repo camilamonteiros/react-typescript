@@ -25,7 +25,7 @@ function Formulario(){
                     max="01:30:00"
                 />
             </div>
-            <Botao/>
+            <Botao>Adicionar</Botao>
         </form>
     )
 }
